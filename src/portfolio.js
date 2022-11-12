@@ -124,7 +124,7 @@ const educationInfo = {
   schools: [
 
     {
-      schoolName: "SSRM University",
+      schoolName: "SRM University",
       logo: require("./assets/images/srm.jpeg"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "September 2020 - April 2025",
