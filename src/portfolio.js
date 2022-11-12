@@ -122,25 +122,26 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+
+    {
+      schoolName: "SSRM University",
+      logo: require("./assets/images/srm.jpeg"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "September 2020 - April 2025",
+      desc: "Attended various workshops on Cloud Computing, App Development and Machine Learning",
+      descBullets: ["iOS App Dev"]
+    },
     {
       schoolName: "Delhi Public School, Siliguri",
       logo: require("./assets/images/dps.jpeg"),
       subHeader: "Schooling",
       duration: "2017 - 2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Grades:-",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Class 12th : 88.6%",
+        "Class 10th : 93.4%"
       ]
-    },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    }
   ]
 };
 
